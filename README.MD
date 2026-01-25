@@ -37,13 +37,10 @@ Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répo
 > Il y a des commandes utiles en bas de page.
 
 # Environnement
-L'ensemble des  4 TD/TP sont à réaliser sur **_Gitpod_**.
+L'ensemble des  4 TD/TP sont à réaliser sur **_GitHub Codespaces_**.
 
-**_Ona (anciennement Gitpod)_** est une plateforme de développement cloud qui permet de configurer des environnements de développement prêts à l’emploi pour tout projet, directement depuis un dépôt Git.
- Elle automatise la préparation des environnements (dépendances, configurations, etc.),
-  réduisant ainsi le temps d’installation et les problèmes de compatibilité.
-  Grâce à son intégration avec des outils comme GitHub, GitLab, et Bitbucket, Ona propose des espaces de travail reproductibles et éphémères.
-
+**_GitHub Codespaces_** est un IDE complet basé sur VS Code accessible directement dans votre navigateur. Aucun besoin d'installer Java, Node.js ou Maven sur votre machine : l'environnement est pré-configuré avec toutes les dépendances nécessaires. Elle automatise la préparation des environnements (dépendances, configurations, etc.), réduisant ainsi le temps d’installation et les problèmes de compatibilité.
+  
 
 # Déroulement
 Dans le monde de l'*Open Source*, lorsque l'on veut contribuer à un projet, on propose des évolutions à une base de code (un **repo**) qui  seront approuvées ou non par un validateur (**reviewer**). C'est ce que l'on appel  **faire une PR**.
@@ -57,7 +54,7 @@ Ainsi pour chacun des TD/TPS, il faudra:
 1. Proposer vos modifications sur le repo. parent (**PullRequest**)
 
 # Creation des comptes
-Vous allez créer 2 comptes: un sur GitHub et un sur Ona. Ces comptes seront utilisés lors des 4TD/TP.
+Vous allez créer 1 compte  sur GitHub (à moins que vous n'en ayez déjà un et que vous n'ayez pas consommé tout votre quotas d'utilisation de Codespaces). Ce compte sera utilisé lors des 4TD/TP.
 
 ## GitHub
 Dans cette section nous créons un compte sur Github. Si vous en avez déjà vous pouvez passer à l'étape suivante.
@@ -69,16 +66,6 @@ Dans cette section nous créons un compte sur Github. Si vous en avez déjà vou
 1. Connecter vous au site github avec le nouveau compte créé
 1. Remplissez le formulaire
 ![Github1](assets/GitHub3.png)
-## Ona (Ex Gitpod)
-### Creation compte
-1. Se  rendre sur https://app.gitpod.io/login, selectionner **Continue with Github** 
-![Github1](assets/GitPod1.jpg)
-1. Se connecter avec votre compte Github (si vous ne l'êtes pas déjà)
-![Github1](assets/GitPod1b.png)
-1. Authoriser Gitpod Flex by Ona  à accèder à votre compte Github
-![Github1](assets/GitPod2.png)
-1. Vous arrivez à cet écran, conserver cet onglet ouvert dans votre navigateur 
-![Github1](assets/GitPod2Pause.png)
 
 
 # Fork du projet
@@ -100,27 +87,19 @@ Une application web consomme une API Rest  qui s'appuie sur une base de données
 Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix est à faire entre **Springboot** et **Quarkus**.
 
 
-# Utiliser Gitpod Flex
+# Utiliser GitHUb codespaces
 
-1. Revenez à votre onglet **Git pod Flex**
-1. Autorisez **Ona Hosted Compute** à accéder à vos infos en lecture, vos repos & vos workflow github
-![Capture d'écran](assets/GitPodAuthorizeRepo.png)
-1. La liaison entre vos comptes Ona/Github est fonctionnelle
-![Capture d'écran](assets/GitPodConfirm.png)
-1. Se rendre à l'url : https://app.gitpod.io/onboarding/ona/select-your-repository
-1. Selectionnez le repo **XXX/**
-![Capture d'écran](assets/GitPodSelectRepo.png)
-1. Sautez l'étape d'utilisation de l'IA
-![Capture d'écran](assets/GitPodSkipIA.png)
+1. Rendez-vous sur la page principale de votre projet forké
+![Capture d'écran](assets/GitHubFork.png)
+1. En haut de cette page, cliquez sur le bouton vert <> Code.
+1. Sélectionnez l'onglet Codespaces.
+1. Cliquez sur Create codespace on main.
+![Capture d'écran](assets/GitHubCodeSpaceSettup.png)
+1. Attendez environ 1 à 2 minutes que l'environnement se construise (le système installe Java, Node.js et les extensions nécessaires automatiquement).
 
-Pour utiliser  **GitPod Flex** avec votre projet forké, il suffit d'ouvrir  l'url suivant dans votre navigateur :
-**https://gitpod.io/#** + **URL_REPO_GITHUB**
+Sinon vous pouvez clicquer ici [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new)
+⚠️ Attention : Assurez-vous d'avoir forké ce projet sur votre compte personnel avant de cliquer sur le bouton ci-dessus, sinon vous ne pourrez pas enregistrer (pusher) vos modifications.
 
-Avec un repo _https://github.com/miage3-ae/miage-numres-step1_ alors l'url est : **https://gitpod.io/#https://github.com/miage3-ae/miage-numres-step1**
-
-Avec l'exemple ci-dessus et étant connecté à GitPod avec votre compte, vous devez obtenir cette fenêtre:
-
-![Capture d'écran](assets/GitPodUsage1.png)
 
 Vous êtes désormais connecté à votre environnement de developpement.
 
