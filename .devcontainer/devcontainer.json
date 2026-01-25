@@ -15,5 +15,5 @@
   // Ports Quarkus (8080) et Spring Boot (8080)
   "forwardPorts": [8080],
 
-  "postStartCommand": "chmod +x .devcontainer/check_fork.sh && ./.devcontainer/check_fork.sh"
+  "postAttachCommand": "./.devcontainer/check_fork.sh"
 }

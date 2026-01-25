@@ -87,18 +87,27 @@ Une application web consomme une API Rest  qui s'appuie sur une base de données
 Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix est à faire entre **Springboot** et **Quarkus**.
 
 
-# Utiliser GitHUb codespaces
+# Utiliser GitHub codespaces
 
 1. Rendez-vous sur la page principale de votre projet forké
 ![Capture d'écran](assets/GitHubFork.png)
-1. En haut de cette page, cliquez sur le bouton vert <> Code.
-1. Sélectionnez l'onglet Codespaces.
-1. Cliquez sur Create codespace on main.
+1. En haut de cette page, cliquez sur le bouton vert <> Code
+1. Sélectionnez l'onglet Codespaces
+1. Cliquez sur Create codespace on main
 ![Capture d'écran](assets/GitHubCodeSpaceSettup.png)
 1. Attendez environ 1 à 2 minutes que l'environnement se construise (le système installe Java, Node.js et les extensions nécessaires automatiquement).
 
 Sinon vous pouvez clicquer ici [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new)
-⚠️ Attention : Assurez-vous d'avoir forké ce projet sur votre compte personnel avant de cliquer sur le bouton ci-dessus, sinon vous ne pourrez pas enregistrer (pusher) vos modifications.
+
+> [!TIP]
+> Fermez la fenêtre de Copilot, vous n'en avez pas besoin.
+
+> [!WARNING]
+> Assurez-vous d'avoir forké ce projet sur votre compte personnel avant de cliquer sur le bouton ci-dessus, sinon vous ne pourrez pas enregistrer (pusher) vos modifications.
+
+> [!WARNING]
+> Vous disposez de 60 heures gratuites par mois. Quand vous avez terminé votre travail, cliquez sur le nom du Codespace en bas à gauche et choisissez Stop Current Codespace.
+![Capture d'écran](assets/GitHubStop.png)
 
 
 Vous êtes désormais connecté à votre environnement de developpement.
