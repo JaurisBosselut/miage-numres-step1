@@ -20,15 +20,20 @@ Les désavantages principaux de Gitpod sont :
 
 # Q3 : Quelle est la taille du fichier jar `api-springboot-0.0.1-SNAPSHOT.jar` ?
 Réponse:
+167 Mo de RAM
 
 # Q4 : Qu'est ce que  la RSS ?
 Réponse:
+La RSS est la quantité de mémoire actuellement utilisée en RAM et non la quantité qui lui est réservée
+
 
 # Q5 : Quelle est la valeur de la RSS utilisée par l'api SpringBoot (Préciser l'unité)?
 Réponse:
+2304 Ko (~2 Mo)
 
 # Q6 : Quel est le temps de démarrage l'api SpringBoot ?
 Réponse:
+3.165 secondes
 
 # Q7 : Quelle est la taille du fichier jar `quarkus-run.jar` ?
 Réponse:
